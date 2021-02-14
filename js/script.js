@@ -61,14 +61,14 @@ $('.page-scroll').on('click', function(e){
         });
 
 
-        // tl.from(".project1", {y: 200, opacity:0, duration:1.5}, "-=1")
-        // tl.from(".project2", {y: 200, opacity:0, duration:2}, "-=1")
-        // tl.from(".project3", {y: 200, opacity:0, duration:2.5}, "-=1")
-        // ask.from(".how", {y: 50, opacity:0, duration:.8}, "-=1")
-        // ask.from(".interst", {y: 50, opacity:0, duration:.8}, "-=1")
-        // ask.from(".qtext", {y: 50, opacity:0, duration:.8}, "-=1")
-        // ask.from(".quotes", {y: 50, opacity:0, duration:.8}, "-=1")
-        // ask.from(".hr", {y: 50, opacity:0, duration:1}, "-=1")
+        tl.from(".project1", {y: 200, opacity:0, duration:1.5}, "-=1")
+        tl.from(".project2", {y: 200, opacity:0, duration:2}, "-=1")
+        tl.from(".project3", {y: 200, opacity:0, duration:2.5}, "-=1")
+        ask.from(".how", {y: 50, opacity:0, duration:.8}, "-=1")
+        ask.from(".interst", {y: 50, opacity:0, duration:.8}, "-=1")
+        ask.from(".qtext", {y: 50, opacity:0, duration:.8}, "-=1")
+        ask.from(".quotes", {y: 50, opacity:0, duration:.8}, "-=1")
+        ask.from(".hr", {y: 50, opacity:0, duration:1}, "-=1")
         // line.from(".hr-line", {y: 50, opacity:0, duration:2}, "-=1")
         // portfolio.from(".tittle", {y: 50, opacity:0, duration:.6}, "-=1")
         // portfolio.from(".tittle2", {y: 50, opacity:0, duration:.8}, "-=1")
@@ -76,11 +76,11 @@ $('.page-scroll').on('click', function(e){
         // portfolio.from(".tittle4", {y: 50, opacity:0, duration:1.2}, "-=1")
         // portfolio.from(".tittle-content", {y: 50, opacity:0, duration:1.2}, "-=1")
         // portfolio.from(".tittle-content2", {y: 50, opacity:0, duration:2}, "-=1")
-        // footer.from(".contact", {y: 50, opacity:0, duration:1.5}, "-=1")
-        // footer.from(".hello", {y: 50, opacity:0, duration:1.5}, "-=1")
-        // footer.from("#git", {y: 50, opacity:0, duration:.5}, "-=1")
-        // footer.from("#ig", {y: 50, opacity:0, duration:1.2}, "-=1")
-        // footer.from("#wa", {y: 50, opacity:0, duration:1.5}, "-=1")
+        footer.from(".contact", {y: 50, opacity:0, duration:1.5}, "-=1")
+        footer.from(".hello", {y: 50, opacity:0, duration:1.5}, "-=1")
+        footer.from("#git", {y: 50, opacity:0, duration:.5}, "-=1")
+        footer.from("#ig", {y: 50, opacity:0, duration:1.2}, "-=1")
+        footer.from("#wa", {y: 50, opacity:0, duration:1.5}, "-=1")
     
 
         // nav animation end
