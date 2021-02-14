@@ -200,6 +200,15 @@ body {
   text-decoration: none;
 }
 
+.demo {
+  color: #FD0054;
+}
+
+.demo:hover {
+  color: #F3F9FB;
+  text-decoration: none;
+}
+
 .footer {
   margin-bottom: 60px;
 }

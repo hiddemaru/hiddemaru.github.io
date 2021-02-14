@@ -220,6 +220,15 @@ body{
     text-decoration: none;
 }
 
+// portfolio
+.demo{
+    color: $secondary-color;
+}
+.demo:hover{
+    color: $tertiary-color;
+    text-decoration: none;
+}
+
 // footer
 .footer{
     margin-bottom: 60px;
