@@ -61,9 +61,7 @@ $('.page-scroll').on('click', function(e){
         });
 
 
-        tl.from(".project1", {y: 200, opacity:0, duration:1.5}, "-=1")
-        tl.from(".project2", {y: 200, opacity:0, duration:2}, "-=1")
-        tl.from(".project3", {y: 200, opacity:0, duration:2.5}, "-=1")
+    
         ask.from(".how", {y: 50, opacity:0, duration:.8}, "-=1")
         ask.from(".interst", {y: 50, opacity:0, duration:.8}, "-=1")
         ask.from(".qtext", {y: 50, opacity:0, duration:.8}, "-=1")
