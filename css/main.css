@@ -66,6 +66,10 @@ body {
           animation: typewriter 4s steps(40) 1s 1 normal both, blink_text 500ms steps(40) infinite normal;
 }
 
+.work-ttl {
+  margin-top: 100px;
+}
+
 .vertical::after {
   content: '';
   border-left: 2px solid #F3F9FB;
@@ -352,6 +356,9 @@ embed {
 }
 
 @media (min-width: 992px) {
+  .work-ttl {
+    margin-top: 0px;
+  }
   .hero h1 {
     font-size: 48px;
   }

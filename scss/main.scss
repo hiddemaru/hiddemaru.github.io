@@ -79,6 +79,9 @@ body{
 }
 
 // content
+.work-ttl{
+    margin-top: 100px;
+}
 .vertical::after{
     content: '';
     border-left: 2px solid $tertiary-color;
@@ -369,6 +372,9 @@ embed{
 
 // DESKTOP BRAK POINT
 @media (min-width: 992px) {
+    .work-ttl {
+        margin-top: 0px;
+    }
     .hero{
         h1 {
             font-size: $font-size4;
@@ -501,6 +507,7 @@ embed{
     .ask-detile {
         margin-top: 80px;
     }
+    
 }
 
 
